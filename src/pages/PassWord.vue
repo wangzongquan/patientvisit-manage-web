@@ -25,7 +25,7 @@
         show1:false,
         password:'',
         rules:{
-          required: value => !!value || 'Required',
+          required: value => !!value || '必填',
           min: v => v.length >= 8 || '最少8个字符'
         }
       }
