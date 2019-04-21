@@ -17,7 +17,7 @@
               <img src="../assets/2.jpeg">
             </v-list-tile-avatar>
             <v-list-tile-content>
-              <v-list-tile-title>虎哥</v-list-tile-title>
+              <v-list-tile-title>administrator</v-list-tile-title>
             </v-list-tile-content>
           </v-list-tile>
         </v-list>
@@ -115,7 +115,7 @@
   export default {
     data() {
     return {
-      dark: false,// 是否暗黑主题
+      dark: true,// 是否暗黑主题
       drawer: true,// 左侧导航是否隐藏
       miniVariant: false,// 左侧导航是否收起
       title: '好康医院随访平台',// 顶部导航条名称,
