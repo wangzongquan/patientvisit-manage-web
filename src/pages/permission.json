@@ -1,0 +1,16 @@
+[
+  {
+    "id": 74,
+    "name": "手机",
+    "parentId": 0,
+    "isParent": true,
+    "sort": 2
+  },
+  {
+    "id": 75,
+    "name": "家用电器",
+    "parentId": 0,
+    "isParent": true,
+    "sort": 3
+  }
+]

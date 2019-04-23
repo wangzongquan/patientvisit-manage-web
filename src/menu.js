@@ -46,7 +46,7 @@ var menus = [
       { title: "患者信息", path: "/list" },
       { title: "组织架构", path: "/list" },
       { title: "知识库", path: "/list" },
-      { title: "权限管理", path: "/list" },
+      { title: "权限管理", path: "/permission" },
       { title: "角色管理", path: "/role" },
       { title: "人员管理", path: "/member" }
     ]

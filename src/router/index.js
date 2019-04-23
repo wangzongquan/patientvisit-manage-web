@@ -5,6 +5,7 @@ import Login from '@/pages/Login'
 import PassWord from '@/pages/PassWord'
 import Layout from '@/pages/Layout'
 import ListGroup from '@/pages/ListGroup'
+import Permission from '@/pages/authority/Permission'
 
 Vue.use(Router)
 
@@ -26,7 +27,7 @@ export default new Router({
       component:PassWord
     },
     {
-      path:'/layout',
+      path:'/',
       name:'Layout',
       component:Layout,
       children:[{
@@ -35,6 +36,10 @@ export default new Router({
       },{
         path:'listgroup',
         component:ListGroup
+      },{
+        path:'authority/permission',
+        name:Permission,
+        component:Permission
       }]
     }
   ]
